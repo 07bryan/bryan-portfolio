@@ -29,14 +29,13 @@ function HeroContent() {
 
             <div className="mt-10 flex flex-wrap gap-4">
 
-                <Button>
+                <Button href="#projects">
                     <FaArrowRight />
                     <span>Ver proyectos</span>
                 </Button>
 
-                <Button className="border border-slate-700 bg-transparent hover:bg-slate-900">
-                    <FaDownload />
-                    <span>Descargar CV</span>
+                <Button href="/Bryan_Ortiz_CV.pdf" download>
+                    Descargar CV
                 </Button>
 
             </div>

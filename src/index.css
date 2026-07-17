@@ -4,3 +4,13 @@ body {
   font-family: "Inter", sans-serif;
   background: #020617;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #020617;
+  color: #f8fafc;
+  overflow-x: hidden;
+}

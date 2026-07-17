@@ -9,6 +9,10 @@ export const navigationItems: NavigationItem[] = [
     href: "#about",
   },
   {
+    label: "Impact",
+    href: "#impact",
+  },
+  {
     label: "Experience",
     href: "#experience",
   },

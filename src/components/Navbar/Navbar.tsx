@@ -12,8 +12,8 @@ function Navbar() {
 
         <NavLinks />
 
-        <Button>
-          Download CV
+        <Button href="/Bryan_Ortiz_CV.pdf" download>
+          Descargar CV
         </Button>
 
       </div>
