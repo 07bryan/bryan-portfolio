@@ -39,6 +39,8 @@ export const skillCategories: SkillCategory[] = [
       "GitHub",
       "Maven",
       "Docker",
+      "Jenkins",
+      "CI/CD",
     ],
   },
 ];

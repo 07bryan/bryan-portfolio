@@ -10,7 +10,7 @@ export const projects: Project[] = [
   {
     title: "Plataforma de Apoyo para Tutores",
     description:
-      "Proyecto de voluntariado desarrollado para una fundación con el objetivo de apoyar a los tutores en la gestión de actividades educativas. Participé en el desarrollo de la interfaz de usuario con React, contribuyendo a la creación de una experiencia intuitiva y facilitando la organización y el seguimiento de la información.",
+      "Aplicación web full stack desarrollada como voluntariado para una fundación, con el objetivo de apoyar a los tutores en la organización, administración y seguimiento de actividades educativas. Fui responsable del desarrollo completo de la solución utilizando Java con Spring Boot para el backend, React y JavaScript para la interfaz de usuario, y SQL para la gestión de datos. Implementé la arquitectura de la aplicación, servicios REST, lógica de negocio, persistencia de información y componentes frontend, construyendo una plataforma intuitiva y funcional para facilitar el control de actividades y procesos educativos.",
     technologies: [
       "Java",
       "Spring Boot",

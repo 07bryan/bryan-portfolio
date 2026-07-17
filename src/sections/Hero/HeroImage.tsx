@@ -1,3 +1,5 @@
+import javaImage from "../../assets/images/javaImage.jpg";
+
 function HeroImage() {
     return (
         <div className="relative flex items-center justify-center">
@@ -5,7 +7,11 @@ function HeroImage() {
 
             <div className="relative flex h-[450px] w-[350px] items-center justify-center overflow-hidden rounded-3xl border border-slate-800 bg-slate-900">
 
-                <span className="text-7xl">👨‍💻</span>
+                <img
+                    src={javaImage}
+                    alt="Bryan Ortiz"
+                    className="h-full w-full object-cover"
+                />
 
             </div>
         </div>

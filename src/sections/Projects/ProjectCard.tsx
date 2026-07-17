@@ -1,5 +1,6 @@
 import { ArrowUpRight, ExternalLink } from "lucide-react";
 import Card from "../../components/Card";
+import ApoyoTutores from "../../assets/images/ApoyoTutores.png";
 
 interface ProjectCardProps {
   title: string;
@@ -20,9 +21,11 @@ function ProjectCard({
     <Card>
       {/* Imagen del proyecto */}
       <div className="mb-6 flex h-56 items-center justify-center rounded-xl border border-slate-800 bg-slate-800">
-        <span className="text-slate-500">
-          Screenshot coming soon
-        </span>
+        <img
+          src={ApoyoTutores}
+          alt="Bryan Ortiz"
+          className="h-full w-full object-cover"
+        />
       </div>
 
       {/* Información */}
