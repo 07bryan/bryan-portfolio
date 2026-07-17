@@ -35,7 +35,8 @@ function HeroContent() {
                 </Button>
 
                 <Button href="/Bryan_Ortiz_CV.pdf" download>
-                    Descargar CV
+                    <FaDownload />
+                    <span>Descargar CV</span>
                 </Button>
 
             </div>
