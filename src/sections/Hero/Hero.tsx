@@ -1,20 +1,19 @@
+import HeroContent from "./HeroContent";
+import HeroImage from "./HeroImage";
+
 function Hero() {
   return (
-    <section>
-      <p>Hola 👋</p>
+    <section
+      id="hero"
+      className="relative flex min-h-screen items-center bg-slate-950"
+    >
+      <div className="mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-16 px-6 pt-20 lg:grid-cols-2">
 
-      <h1>Bryan Arley Ortiz Lasso</h1>
+        <HeroContent />
 
-      <h2>Java Backend Developer</h2>
+        <HeroImage />
 
-      <p>
-        Desarrollo aplicaciones empresariales utilizando Java,
-        Spring Boot y SQL.
-      </p>
-
-      <button>Ver proyectos</button>
-
-      <button>Descargar CV</button>
+      </div>
     </section>
   );
 }
